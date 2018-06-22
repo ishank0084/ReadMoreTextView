@@ -8,6 +8,8 @@ Demo
 This repository also contains a demo project.
 
 ![Demo](https://i.imgur.com/xpXEnIim.gif)
+<a href="https://imgur.com/xpXEnIi"><img src="https://i.imgur.com/xpXEnIim.gif" title="source: imgur.com" /></a>
+[Imgur](https://i.imgur.com/xpXEnIim.gif)
 
 
 Usage
