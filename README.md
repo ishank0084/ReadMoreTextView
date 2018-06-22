@@ -12,11 +12,22 @@ This repository also contains a demo project.
 Usage
 ------
 Using the ReadMoreTextView is very easy, it's just  functionality added to it for showing read more and read less. 
-you can set the default number of lines for the TextView collapsed state.You can easily set text content for "Show more" 
-and "Show Less"
+you can set the default number of lines for the TextView collapsed state.You can easily set text content for "Read More" 
+and "Read Less" and can set color to differentiate read more text content.
 
 ```
-new ReadMoreTextView(textView, 3, "Read More", "Read less");
+
+ReadMoreTextView readMoreTextView = new ReadMoreTextView();
+        readMoreTextView.setTextView(textView);
+        readMoreTextView.setMaximumLine(1);
+        readMoreTextView.setCollapseText("See Less");
+        readMoreTextView.setExpandText("See More");
+        readMoreTextView.setColorCode("#e74c3c");
+        readMoreTextView.setReadMore();
+ 	
+Either:
+ 
+new ReadMoreTextView(textView, 3, "Read More", "Read less", "");
 
 ```
 
@@ -35,7 +46,7 @@ and:
 
 ```gradle
 dependencies {
-	        implementation 'com.github.ishank0084:ReadMoreTextView:1.0'
+	        compile 'com.github.ishank0084:ReadMoreTextView:2.0'
 	}
 ```
 
