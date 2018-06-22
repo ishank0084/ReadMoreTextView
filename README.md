@@ -3,9 +3,9 @@
 
 [![](https://jitpack.io/v/ishank0084/ReadMoreTextView.svg)](https://jitpack.io/#ishank0084/ReadMoreTextView)
 
-Demo
------
+
 This repository also contains a demo project.
+---
 ![](http://i.imgur.com/xpXEnIim.gif)
 
 
