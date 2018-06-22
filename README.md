@@ -7,7 +7,8 @@
 This repository also contains a demo project.
 ---
 ![](http://i.imgur.com/xpXEnIim.gif)
-
+ <a href="https://imgur.com/xpXEnIi"><img src="https://i.imgur.com/xpXEnIim.gif" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/xpXEnIim.gif" width="40" height="40" />
 
 
 Usage
