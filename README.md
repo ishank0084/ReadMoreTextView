@@ -5,8 +5,9 @@
 
 Demo
 -----
-This repository also contains a demo project:
-<img src="https://i.imgur.com/Y4DKGvjm.gif" title="source: imgur.com" />
+This repository also contains a demo project.
+
+![Demo](https://i.imgur.com/Y4DKGvjm.gif)
 
 
 Usage
