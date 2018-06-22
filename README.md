@@ -7,7 +7,7 @@ Demo
 -----
 This repository also contains a demo project.
 
-![Demo](https://i.imgur.com/Y4DKGvjm.gif)
+![Demo](https://i.imgur.com/xpXEnIim.gif)
 
 
 Usage
