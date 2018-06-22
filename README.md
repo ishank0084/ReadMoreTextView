@@ -1,4 +1,8 @@
 # ReadMoreTextView
+----
+
+[![](https://jitpack.io/v/ishank0084/ReadMoreTextView.svg)](https://jitpack.io/#ishank0084/ReadMoreTextView)
+
 
 
 Demo
@@ -31,8 +35,8 @@ and:
 
 ```gradle
 dependencies {
-    implementation 'com.github.ishank0084:ResizeableTextView:v1.0''
-}
+	        implementation 'com.github.ishank0084:ReadMoreTextView:1.0'
+	}
 ```
 
 ## Adding the maven plugin
