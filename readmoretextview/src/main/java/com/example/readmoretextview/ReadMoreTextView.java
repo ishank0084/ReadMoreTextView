@@ -108,7 +108,7 @@ public class ReadMoreTextView {
                     tv.setText(text);
                     tv.setMovementMethod(LinkMovementMethod.getInstance());
                     tv.setText(
-                            addClickablePartTextViewResizable(Html.fromHtml(tv.getText().toString()), tv, maxLine, expandText,
+                            addClickablePartTextViewResizable(Html.fromHtml(tv.getText().toString().replace("\n", "<br>")), tv, maxLine, expandText,
                                     readMore), TextView.BufferType.SPANNABLE);
                 } else if (maxLine > 0 && tv.getLineCount() >= maxLine) {
                     int lineEndIndex = tv.getLayout().getLineEnd(maxLine - 1);
@@ -116,7 +116,7 @@ public class ReadMoreTextView {
                     tv.setText(text);
                     tv.setMovementMethod(LinkMovementMethod.getInstance());
                     tv.setText(
-                            addClickablePartTextViewResizable(Html.fromHtml(tv.getText().toString()), tv, maxLine, expandText,
+                            addClickablePartTextViewResizable(Html.fromHtml(tv.getText().toString().replace("\n", "<br>")), tv, maxLine, expandText,
                                     readMore), TextView.BufferType.SPANNABLE);
                 } else {
                     int lineEndIndex = tv.getLayout().getLineEnd(tv.getLayout().getLineCount() - 1);
@@ -124,7 +124,7 @@ public class ReadMoreTextView {
                     tv.setText(text);
                     tv.setMovementMethod(LinkMovementMethod.getInstance());
                     tv.setText(
-                            addClickablePartTextViewResizable(Html.fromHtml(tv.getText().toString()), tv, lineEndIndex, expandText,
+                            addClickablePartTextViewResizable(Html.fromHtml(tv.getText().toString().replace("\n", "<br>")), tv, lineEndIndex, expandText,
                                     readMore), TextView.BufferType.SPANNABLE);
                 }
             }
